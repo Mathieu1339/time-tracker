@@ -1,3 +1,4 @@
+/** @see index.html */
 package training.taylor.timetracker.core;
 
 import java.util.List;
