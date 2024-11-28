@@ -12,18 +12,22 @@ public class Tracker {
     @Autowired
     private List<TimeEntry> entries;
 
+    /** {@inheritDoc} */
     public final void add(final TimeEntry entry) {
         entries.add(entry);
     }
 
+    /** {@inheritDoc} */
     public final void remove(final TimeEntry entry) {
         entries.remove(entry);
     }
 
+    /** {@inheritDoc} */
     public final int size() {
         return entries.size();
     }
 
+    /** {@inheritDoc} */
     public final TimeEntry get(final int index) {
         return entries.get(index);
     }
