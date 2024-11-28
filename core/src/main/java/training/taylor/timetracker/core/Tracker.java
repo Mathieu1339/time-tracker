@@ -1,3 +1,4 @@
+/** javadoc du package */
 package training.taylor.timetracker.core;
 
 import java.util.List;
@@ -7,8 +8,12 @@ import org.springframework.stereotype.Component;
 
 import training.taylor.timetracker.core.dao.TimeEntry;
 
+/**
+ * Created by Jason on 6/19/2015.
+ */
 @Component
 public class Tracker {
+    /** Entries */
     @Autowired
     private List<TimeEntry> entries;
 

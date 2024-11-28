@@ -14,8 +14,9 @@ import training.taylor.timetracker.core.dao.TimeEntry;
  */
 @Configuration
 @ComponentScan("training.taylor.timetracker.core")
-public abstract class TrackerCoreConfig {
+public class TrackerCoreConfig {
 
+    /** {@inheritDoc} */
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
         return new ArrayList<>();
