@@ -14,10 +14,10 @@ import training.taylor.timetracker.core.dao.TimeEntry;
  */
 @Configuration
 @ComponentScan("training.taylor.timetracker.core")
-public class TrackerCoreConfig {
+public abstract class TrackerCoreConfig {
 
     @Bean(name = "timesheet")
-    List<TimeEntry> timeEntries() {
+    public List<TimeEntry> timeEntries() {
         return new ArrayList<>();
     }
 }
