@@ -1,4 +1,3 @@
-/** javadoc du package */
 package training.taylor.timetracker.core;
 
 import java.util.List;
@@ -13,7 +12,7 @@ import training.taylor.timetracker.core.dao.TimeEntry;
  */
 @Component
 public class Tracker {
-    /** Entries */
+    /** Entries. */
     @Autowired
     private List<TimeEntry> entries;
 

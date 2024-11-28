@@ -1,4 +1,3 @@
-/** javadoc du package */
 package training.taylor.timetracker.core.dao;
 
 import org.springframework.context.annotation.Scope;
@@ -11,13 +10,13 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class TimeEntry {
 
-    /** Description */
+    /** Description. */
     private String description;
 
-    /** Rate */
+    /** Rate. */
     private float rate;
 
-    /** Time */
+    /** Time. */
     private int time;
 
     /** {@inheritDoc} */
