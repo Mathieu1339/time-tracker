@@ -17,7 +17,7 @@ import training.taylor.timetracker.core.dao.TimeEntry;
 public class TrackerCoreConfig {
 
     @Bean(name = "timesheet")
-    public List<TimeEntry> timeEntries() {
+    List<TimeEntry> timeEntries() {
         return new ArrayList<>();
     }
 }
